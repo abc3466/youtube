@@ -1,0 +1,48 @@
+.video_item {
+  width: 18.4%;
+  margin: 0.8%;
+  margin-bottom: 40px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 300ms;
+}
+
+.video_item > img {
+  width: 100%;
+}
+
+.title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.channel {
+  color: #333;
+}
+
+.video_item.small {
+  width: 95%;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.text_box {
+  width: 95%;
+}
+
+.video_item.small > * {
+  width: 50%;
+}
+
+.video_item.small > .text_box {
+  width: 47%;
+  margin-left: 2.5%;
+}
+
+.video_item:hover {
+  transform: scale(1.05, 1.05);
+}

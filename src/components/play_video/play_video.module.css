@@ -1,0 +1,30 @@
+.play_video {
+  overflow: hidden;
+  width: 100%;
+}
+
+.play_video > iframe {
+  width: 100%;
+}
+
+.play_video pre {
+  width: 80%;
+  white-space: pre-wrap;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.channel {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.info {
+  font-size: 1.1em;
+  font-weight: lighter;
+}

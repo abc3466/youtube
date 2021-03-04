@@ -1,0 +1,7 @@
+.video_list {
+  font-size: 0.8em;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
